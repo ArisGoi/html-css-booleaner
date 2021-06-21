@@ -9,6 +9,8 @@
     width: 1024px;
 }
 
+.bottom-standardspace{margin-bottom: 15px;}
+
 header{
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
@@ -17,8 +19,6 @@ header{
     width: 100%;
     height: 120px;
     position: relative;
-
-    margin-bottom: 15px;
 }
 
 header img{
@@ -29,8 +29,6 @@ header img{
 }
 
 /* Sezione - Titolo e intestazione articolo */
-.head-article{margin-bottom: 15px;}
-
 .head-article h1{
     font-size: 30pt;
     font-weight: bold;
@@ -48,4 +46,9 @@ header img{
 }
 .head-article h6{
     font-size: 10pt;
+}
+
+/* Sezione - Immagini articolo */
+.imgs-article{
+    width: 100%;
 }
