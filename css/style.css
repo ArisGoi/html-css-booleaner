@@ -9,7 +9,7 @@
     width: 1024px;
 }
 
-.bottom-standardspace{margin-bottom: 15px;}
+.bottom-standardspace{margin-bottom: 20px;}
 
 header{
     background-color: #4EA0FF;
@@ -57,5 +57,24 @@ header img{
     font-size: 14pt;
 }
 .body-article ul{
-    padding-inline-start: 15px;
+    padding-left: 15px;
+}
+
+/* Tabella */
+table{
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+thead{
+    background-color: #20A9E5;
+    text-align: left;
+    color: white;
+}
+td{
+    min-width: 200px;
+}
+
+.bgBlue{
+    background-color: #B1E5F2;
 }
