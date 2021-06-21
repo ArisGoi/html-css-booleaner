@@ -6,7 +6,7 @@
 .container{
     margin: 0 auto;
     text-decoration: none;
-    width: 65%;
+    width: 1024px;
 }
 
 header{
@@ -17,6 +17,8 @@ header{
     width: 100%;
     height: 120px;
     position: relative;
+
+    margin-bottom: 15px;
 }
 
 header img{
@@ -24,4 +26,26 @@ header img{
     position: absolute;
     bottom: 10px;
     left: 10px;
+}
+
+/* Sezione - Titolo e intestazione articolo */
+.head-article{margin-bottom: 15px;}
+
+.head-article h1{
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.head-article h5, .head-article h6{
+    color: lightslategrey;
+}
+.head-article h5{
+    font-size: 14pt;
+}
+.head-article h5 a{
+    color: #20A9E5;
+    text-decoration: none;
+}
+.head-article h6{
+    font-size: 10pt;
 }
