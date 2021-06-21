@@ -48,7 +48,14 @@ header img{
     font-size: 10pt;
 }
 
-/* Sezione - Immagini articolo */
-.imgs-article{
-    width: 100%;
+/* Corpo articolo */
+.highlight{
+    background-color: yellow;
+}
+
+.body-article{
+    font-size: 14pt;
+}
+.body-article ul{
+    padding-inline-start: 15px;
 }
